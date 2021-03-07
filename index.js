@@ -14,7 +14,7 @@ function filterNames() {
         if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
             li[i].style.display = '';
         } else {
-            // li[i].style.display = 'none';
+             li[i].style.display = 'none';
         }
     }
 }
